@@ -1,34 +1,19 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contador Regresivo</title>
+    <title>JS Timer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="countdown-container">
-        <h1>Cuenta Regresiva</h1>
-        <div id="countdown">
-            <div class="time-unit">
-                <span id="days">00</span>
-                <span>Días</span>
-            </div>
-            <div class="time-unit">
-                <span id="hours">00</span>
-                <span>Horas</span>
-            </div>
-            <div class="time-unit">
-                <span id="minutes">00</span>
-                <span>Minutos</span>
-            </div>
-            <div class="time-unit">
-                <span id="seconds">00</span>
-                <span>Segundos</span>
-            </div>
-        </div>
-        <div id="finished-message" class="finished-message" style="display: none;">
-            ¡La cuenta regresiva ha terminado!
+    <div class="timer-container">
+        <h1>Timer</h1>
+        <div id="timer-display">00:00</div>
+        <div class="buttons">
+            <button id="start-btn">Start</button>
+            <button id="stop-btn">Stop</button>
+            <button id="reset-btn">Reset</button>
         </div>
     </div>
     <script src="script.js"></script>
